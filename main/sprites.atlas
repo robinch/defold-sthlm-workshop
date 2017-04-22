@@ -1,0 +1,129 @@
+animations {
+  id: "player-up"
+  images {
+    image: "/assets/player-up/1.png"
+  }
+  images {
+    image: "/assets/player-up/2.png"
+  }
+  images {
+    image: "/assets/player-up/3.png"
+  }
+  images {
+    image: "/assets/player-up/4.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 10
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "player-down"
+  images {
+    image: "/assets/player-down/1.png"
+  }
+  images {
+    image: "/assets/player-down/2.png"
+  }
+  images {
+    image: "/assets/player-down/3.png"
+  }
+  images {
+    image: "/assets/player-down/4.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 10
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "player-left"
+  images {
+    image: "/assets/player-side/1.png"
+  }
+  images {
+    image: "/assets/player-side/2.png"
+  }
+  images {
+    image: "/assets/player-side/3.png"
+  }
+  images {
+    image: "/assets/player-side/4.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 10
+  flip_horizontal: 1
+  flip_vertical: 0
+}
+animations {
+  id: "player-right"
+  images {
+    image: "/assets/player-side/1.png"
+  }
+  images {
+    image: "/assets/player-side/2.png"
+  }
+  images {
+    image: "/assets/player-side/3.png"
+  }
+  images {
+    image: "/assets/player-side/4.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 10
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "rocket"
+  images {
+    image: "/assets/rocket/1.png"
+  }
+  images {
+    image: "/assets/rocket/2.png"
+  }
+  images {
+    image: "/assets/rocket/3.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 30
+  flip_horizontal: 1
+  flip_vertical: 0
+}
+animations {
+  id: "explosion"
+  images {
+    image: "/assets/explosion/1.png"
+  }
+  images {
+    image: "/assets/explosion/2.png"
+  }
+  images {
+    image: "/assets/explosion/3.png"
+  }
+  images {
+    image: "/assets/explosion/4.png"
+  }
+  images {
+    image: "/assets/explosion/5.png"
+  }
+  images {
+    image: "/assets/explosion/6.png"
+  }
+  images {
+    image: "/assets/explosion/7.png"
+  }
+  images {
+    image: "/assets/explosion/8.png"
+  }
+  images {
+    image: "/assets/explosion/9.png"
+  }
+  playback: PLAYBACK_ONCE_FORWARD
+  fps: 16
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+margin: 0
+extrude_borders: 0
+inner_padding: 0

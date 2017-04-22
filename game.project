@@ -1,5 +1,5 @@
 [project]
-title = My project
+title = Workshop shooter
 version = 0.1
 
 [bootstrap]
@@ -9,7 +9,7 @@ main_collection = /main/main.collectionc
 game_binding = /input/game.input_bindingc
 
 [display]
-width = 1280
+width = 720
 height = 720
 
 [physics]
